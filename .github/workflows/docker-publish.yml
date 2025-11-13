@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - master # Push on commits to main
+      - main # Push on commits to main
     # Optional: Add tag trigger if needed
     # tags:
     #   - 'v*.*.*'
