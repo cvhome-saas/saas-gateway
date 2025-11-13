@@ -51,7 +51,7 @@ jobs:
           # Use secrets for the Docker Hub repository name
           images: ${{ secrets.DOCKERHUB_USERNAME }}/saas-gateway
           tags: |
-            # tag 'latest' for default branch (master) pushes
+            # tag 'latest' for default branch (main) pushes
             type=raw,value=latest,enable={{is_default_branch}}
             # Optional: Add tag trigger if needed
             # type=ref,event=tag
