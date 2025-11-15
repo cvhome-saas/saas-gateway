@@ -22,7 +22,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.21' # Or your desired Go version compatible with xcaddy/Caddy
+          go-version: '1.25' # Or your desired Go version compatible with xcaddy/Caddy
 
       # --- Add this step to install xcaddy ---
       - name: Install xcaddy
