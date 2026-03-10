@@ -1,4 +1,4 @@
 FROM alpine:3.19
 
-COPY caddy /usr/bin/caddy
+RUN apk add --no-cache caddy
 CMD ["caddy", "run", "--config", "/etc/caddy/Caddyfile"]
