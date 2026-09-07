@@ -1,2 +1,4 @@
 /.idea/
 /caddy
+.claude/worktrees/
+.DS_Store
